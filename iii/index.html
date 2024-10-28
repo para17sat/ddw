@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                background-color: #f5f5f5;
+                display: grid;
+                place-items: center;
+                min-height: 100vh;
+            }
+    
+            .container {
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                gap: 20px;
+                max-width: 800px;
+            }
+    
+            .image {
+                display: grid;
+                place-items: center;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+    
+            .image img {
+                width: 100%;
+                height: auto;
+            }
+    
+            .content {
+                display: grid;
+                grid-template-rows: 1fr auto 1fr;
+                row-gap: 10px;
+            }
+    
+            .content h2 {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+    
+            .content p {
+                line-height: 1.6;
+                color: #666;
+            }
+    
+            .author {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                align-items: center;
+            }
+    
+            .author img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+    
+            .author .name {
+                margin-left: 10px;
+            }
+    
+            .author .date {
+                color: #999;
+            }
+    
+            .share {
+                display: grid;
+                place-items: center;
+                background-color: #eee;
+                padding: 10px;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1595567589199-3042095a405e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Interior Design">
+            </div>
+            <div class="content">
+                <h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+                <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+                <div class="author">
+                    <img src="C:\Users\Parasat\Desktop\iii\avatar-michelle.jpg" alt="Michelle Appleton">
+                    <div class="name">Michelle Appleton</div>
+                    <div class="date">28 Jun 2020</div>
+                </div>
+                <div class="share">
+                    <svg xmlns="C:\Users\Parasat\Desktop\iii\drawers.jpg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                        <path d="M11.534 7h3.932a.25.25 0 0 1 .192.207l-6.813 6.814a.25.25 0 0 1-.383-.383L13.293 7H8.502a.25.25 0 0 1-.192-.207l6.813-6.814a.25.25 0 0 1 .383.383L7.82 11.23a.25.25 0 0 1-.383.383L5.373 7H1.47a.25.25 0 0 1-.192-.207l6.813-6.814a.25.25 0 0 1 .383-.383L13.293 7z"/>
+                        <path d="M13.854 7.146a.25.25 0 0 1 .192-.207l-6.813-6.814a.25.25 0 0 1 .383-.383L15.373 7h3.932a.25.25 0 0 1 .192.207l-6.813 6.814a.25.25 0 0 1-.383.383L13.293 7H8.502a.25.25 0 0 1-.192.207l6.813 6.814a.25.25 0 0 1 .383.383L7.82 11.23a.25.25 0 0 1-.383.383L5.373 7H1.47a.25.25 0 0 1-.192-.207l6.813-6.814a.25.25 0 0 1 .383-.383L13.854 7.146z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+
